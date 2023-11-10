@@ -1,8 +1,11 @@
 import React from 'react'
+import Slider from './component/pages/Slider'
 
 const All = () => {
   return (
-    <div>All</div>
+    <div>
+        <Slider/>
+    </div>
   )
 }
 
