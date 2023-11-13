@@ -3,78 +3,59 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-  <footer className="ftco-footer ftco-section">
-  <div className="container">
-    <div className="row">
-      <div className="mouse">
-        <a href="#" className="mouse-icon">
-          <div className="mouse-wheel"><span className="ion-ios-arrow-up" /></div>
-        </a>
-      </div>
-    </div>
-    <div className="row mb-5">
-      <div className="col-md">
-        <div className="ftco-footer-widget mb-4">
-          <h2 className="ftco-heading-2">Vegefoods</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-          <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-            <li className="ftco-animate"><a href="#"><span className="icon-twitter" /></a></li>
-            <li className="ftco-animate"><a href="#"><span className="icon-facebook" /></a></li>
-            <li className="ftco-animate"><a href="#"><span className="icon-instagram" /></a></li>
-          </ul>
+ <div className="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+  <div className="container py-5">
+    <div className="row g-5">
+      <div className="col-lg-3 col-md-6">
+        <h1 className="fw-bold text-primary mb-4">F<span className="text-secondary">oo</span>dy</h1>
+        <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
+        <div className="d-flex pt-2">
+          <a className="btn btn-square btn-outline-light rounded-circle me-1" href><i className="fab fa-twitter" /></a>
+          <a className="btn btn-square btn-outline-light rounded-circle me-1" href><i className="fab fa-facebook-f" /></a>
+          <a className="btn btn-square btn-outline-light rounded-circle me-1" href><i className="fab fa-youtube" /></a>
+          <a className="btn btn-square btn-outline-light rounded-circle me-0" href><i className="fab fa-linkedin-in" /></a>
         </div>
       </div>
-      <div className="col-md">
-        <div className="ftco-footer-widget mb-4 ml-md-5">
-          <h2 className="ftco-heading-2">Menu</h2>
-          <ul className="list-unstyled">
-            <li><a href="#" className="py-2 d-block">Shop</a></li>
-            <li><a href="#" className="py-2 d-block">About</a></li>
-            <li><a href="#" className="py-2 d-block">Journal</a></li>
-            <li><a href="#" className="py-2 d-block">Contact Us</a></li>
-          </ul>
-        </div>
+      <div className="col-lg-3 col-md-6">
+        <h4 className="text-light mb-4">Address</h4>
+        <p><i className="fa fa-map-marker-alt me-3" />123 Street, New York, USA</p>
+        <p><i className="fa fa-phone-alt me-3" />+012 345 67890</p>
+        <p><i className="fa fa-envelope me-3" />info@example.com</p>
       </div>
-      <div className="col-md-4">
-        <div className="ftco-footer-widget mb-4">
-          <h2 className="ftco-heading-2">Help</h2>
-          <div className="d-flex">
-            <ul className="list-unstyled mr-l-5 pr-l-3 mr-4">
-              <li><a href="#" className="py-2 d-block">Shipping Information</a></li>
-              <li><a href="#" className="py-2 d-block">Returns &amp; Exchange</a></li>
-              <li><a href="#" className="py-2 d-block">Terms &amp; Conditions</a></li>
-              <li><a href="#" className="py-2 d-block">Privacy Policy</a></li>
-            </ul>
-            <ul className="list-unstyled">
-              <li><a href="#" className="py-2 d-block">FAQs</a></li>
-              <li><a href="#" className="py-2 d-block">Contact</a></li>
-            </ul>
-          </div>
-        </div>
+      <div className="col-lg-3 col-md-6">
+        <h4 className="text-light mb-4">Quick Links</h4>
+        <a className="btn btn-link" href>About Us</a>
+        <a className="btn btn-link" href>Contact Us</a>
+        <a className="btn btn-link" href>Our Services</a>
+        <a className="btn btn-link" href>Terms &amp; Condition</a>
+        <a className="btn btn-link" href>Support</a>
       </div>
-      <div className="col-md">
-        <div className="ftco-footer-widget mb-4">
-          <h2 className="ftco-heading-2">Have a Questions?</h2>
-          <div className="block-23 mb-3">
-            <ul>
-              <li><span className="icon icon-map-marker" /><span className="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-              <li><a href="#"><span className="icon icon-phone" /><span className="text">+2 392 3929 210</span></a></li>
-              <li><a href="#"><span className="icon icon-envelope" /><span className="text">info@yourdomain.com</span></a></li>
-            </ul>
-          </div>
+      <div className="col-lg-3 col-md-6">
+        <h4 className="text-light mb-4">Newsletter</h4>
+        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+        <div className="position-relative mx-auto" style={{maxWidth: 400}}>
+          <input className="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" />
+          <button type="button" className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
         </div>
-      </div>
-    </div>
-    <div className="row">
-      <div className="col-md-12 text-center">
-        <p>{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-          Copyright © All rights reserved | This template is made with <i className="icon-heart color-danger" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-          {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-        </p>
       </div>
     </div>
   </div>
-</footer>
+  <div className="container-fluid copyright">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          © <a href="#">Your Site Name</a>, All Right Reserved.
+        </div>
+        <div className="col-md-6 text-center text-md-end">
+          {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
+          Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+          <br />Distributed By: <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
       
     </div>

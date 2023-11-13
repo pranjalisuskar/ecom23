@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.imh{
+  height: 190px;
+}
+
+.bhg{
+  background-image: url(https://vsmart.ajspire.com/uploads/slider/1667297122.jpg);
+  height: 400px;
+  width: 1000px;
+}
+
